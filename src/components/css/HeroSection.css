@@ -9,54 +9,64 @@
 
 .hero-banner-container {
   width: 100%;
+  position: relative;
+  height: auto;
 }
 
 .hero-banner-image {
   width: 100%;
-  height: 40vh; /* Reduced height for mobile */
-  object-fit: cover;
+  height: auto;
   display: block;
+  image-rendering: auto;
+}
+
+.hero-banner-overlay {
+  display: none;
 }
 
 @media (min-width: 768px) {
-  .hero-banner-image {
-    height: 60vh;
+  .hero-banner-container {
+    height: auto;
   }
 }
 
+/* Removed fixed heights */
+
 .hero-content-wrapper {
-  /* Inherits .gradient-hero from global or we redefine */
   background: var(--gradient-hero);
   position: relative;
-  width: 95%; /* Wider on mobile */
-  margin: -3rem auto 2rem; /* Overlap banner slightly on mobile */
+  width: 95%; /* Quay lại độ rộng cũ */
+  margin: 1.5rem auto 2rem; /* Sử dụng margin dương để không che banner */
   overflow: hidden;
-  padding: 2rem 1rem;
+  padding: 2.5rem 1.5rem;
   box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.2);
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   z-index: 10;
 }
 
 @media (min-width: 768px) {
   .hero-content-wrapper {
-    width: 70%;
-    margin: 2rem auto;
-    border-radius: 0.75rem; /* rounded-xl */
-    padding: 4rem 0; /* md:py-16 */
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); /* shadow-2xl */
+    width: 85%;
+    max-width: 1200px;
+    margin: 2rem auto 4rem; /* Margin dương để tách biệt với banner */
+    border-radius: 2rem;
+    padding: 4rem 3rem;
+    box-shadow: 0 40px 80px -20px rgba(0, 50, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(15px);
   }
 }
 
 .hero-logos {
   position: absolute;
-  top: 0.75rem;
-  right: 0.75rem;
+  top: 1rem;
+  right: 1rem;
   display: flex;
   gap: 0.5rem;
   z-index: 20;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.95);
-  padding: 0.25rem 0.75rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 0.5rem 1rem;
   border-radius: 9999px;
   box-shadow:
     0 4px 6px -1px rgba(0, 0, 0, 0.1),
@@ -77,6 +87,8 @@
 .hero-logo {
   object-fit: contain;
   transition: transform 0.3s ease;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }
 
 .logo-green {

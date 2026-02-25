@@ -1,18 +1,35 @@
-import { motion } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
+import { useRef } from 'react';
 import { Leaf } from 'lucide-react';
 import { brandInfo } from '@/data/products';
-import heroBanner from '@/assets/hero-banner.jpg';
+import heroBanner from '@/assets/banner/banner_green.png';
 import logoGreen from '@/assets/logo-green100.png';
 import logoRadio from '@/assets/Logo_Radio_Shopping.png';
 import './css/HeroSection.css';
 
 const HeroSection = () => {
+  const containerRef = useRef<HTMLElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ['start start', 'end start'],
+  });
+
+  const y = useTransform(scrollYProgress, [0, 1], ['0%', '15%']);
+
   return (
-    <section className='hero-section'>
-      {/* Top Banner Image */}
+    <section className='hero-section' ref={containerRef}>
+      {/* Top Banner Image with Animation and Parallax */}
       <div className='hero-banner-container'>
-        <h1 className='text-center text-3xl font-bold'>Banner ngang</h1>
-        <img src={heroBanner} alt='Hero Banner' className='hero-banner-image' />
+        <motion.img
+          style={{ y }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1.5, ease: 'easeOut' }}
+          src={heroBanner}
+          alt='Hero Banner'
+          className='hero-banner-image'
+        />
+        <div className='hero-banner-overlay'></div>
       </div>
 
       {/* Green gradient background */}
