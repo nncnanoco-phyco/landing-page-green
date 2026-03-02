@@ -5,7 +5,7 @@ export interface Product {
   description: string;
   image: string;
   images?: string[];
-  banner?: string;
+  banners?: string[];
   category: string;
   brand?: string;
   origin?: string;
@@ -153,6 +153,13 @@ export const productCategories: ProductCategory[] = [
           '/products/kitchen/kitchen-kleen-set-1/4.jpg',
           '/products/kitchen/kitchen-kleen-set-1/5.jpg',
         ],
+        banners: [
+          '/products/kitchen/SACH-SAU.jpg',
+          '/products/kitchen/2-2.jpg',
+          '/products/kitchen/3.jpg',
+          '/products/kitchen/4.jpg',
+          '/products/kitchen/5.jpg',
+        ],
         category: 'kitchen',
         brand: 'kitchen KLEEN',
         origin:
@@ -183,6 +190,13 @@ export const productCategories: ProductCategory[] = [
           '/products/kitchen/kitchen-kleen-set-3/3.jpg',
           '/products/kitchen/kitchen-kleen-set-3/4.jpg',
           '/products/kitchen/kitchen-kleen-set-3/5.jpg',
+        ],
+        banners: [
+          '/products/kitchen/SACH-SAU.jpg',
+          '/products/kitchen/2-2.jpg',
+          '/products/kitchen/3.jpg',
+          '/products/kitchen/4.jpg',
+          '/products/kitchen/5.jpg',
         ],
         category: 'kitchen',
         brand: 'kitchen KLEEN',
@@ -215,6 +229,13 @@ export const productCategories: ProductCategory[] = [
           '/products/kitchen/kitchen-kleen-refill-1/4.jpg',
           '/products/kitchen/kitchen-kleen-refill-1/5.jpg',
         ],
+        banners: [
+          '/products/kitchen/SACH-SAU.jpg',
+          '/products/kitchen/2-2.jpg',
+          '/products/kitchen/3.jpg',
+          '/products/kitchen/4.jpg',
+          '/products/kitchen/5.jpg',
+        ],
         category: 'kitchen',
         brand: 'kitchen KLEEN',
         origin:
@@ -246,6 +267,13 @@ export const productCategories: ProductCategory[] = [
           '/products/kitchen/kitchen-kleen-refill-3/4.jpg',
           '/products/kitchen/kitchen-kleen-refill-3/5.jpg',
         ],
+        banners: [
+          '/products/kitchen/SACH-SAU.jpg',
+          '/products/kitchen/2-2.jpg',
+          '/products/kitchen/3.jpg',
+          '/products/kitchen/4.jpg',
+          '/products/kitchen/5.jpg',
+        ],
         category: 'kitchen',
         brand: 'KLEEN',
         origin:
@@ -276,6 +304,13 @@ export const productCategories: ProductCategory[] = [
           '/products/kitchen/kitchen-kleen-refill-10/3.jpg',
           '/products/kitchen/kitchen-kleen-refill-10/4.jpg',
           '/products/kitchen/kitchen-kleen-refill-10/5.jpg',
+        ],
+        banners: [
+          '/products/kitchen/SACH-SAU.jpg',
+          '/products/kitchen/2-2.jpg',
+          '/products/kitchen/3.jpg',
+          '/products/kitchen/4.jpg',
+          '/products/kitchen/5.jpg',
         ],
         category: 'kitchen',
         brand: 'Kitchen KLEEN',
@@ -328,6 +363,13 @@ export const productCategories: ProductCategory[] = [
         ],
         target: ['Gia đình, văn phòng…'],
         packaging: 'Bộ: 1 chai dung tích 500ml + 1 ống dung dịch 5ml đậm đặc',
+        banners: [
+          '/products/multipurpose/9-2-2048x1151.jpg',
+          '/products/multipurpose/2-1-1400x787.jpg',
+          '/products/multipurpose/8-1400x787.jpg',
+          '/products/multipurpose/3-1-1400x787.jpg',
+          '/products/multipurpose/4-1400x787.jpg',
+        ],
         expiry: '2 năm kể từ ngày sản xuất',
         storage: 'Bảo quản ở điều kiện thông thường',
       },
@@ -360,6 +402,13 @@ export const productCategories: ProductCategory[] = [
         target: ['Gia đình, văn phòng…'],
         packaging:
           'Bộ: 1 chai dung tích 500ml + 1 hộp 3 ống dung dịch 5ml đậm đặc',
+        banners: [
+          '/products/multipurpose/9-2-2048x1151.jpg',
+          '/products/multipurpose/2-1-1400x787.jpg',
+          '/products/multipurpose/8-1400x787.jpg',
+          '/products/multipurpose/3-1-1400x787.jpg',
+          '/products/multipurpose/4-1400x787.jpg',
+        ],
         expiry: '2 năm kể từ ngày sản xuất',
         storage: 'Bảo quản ở điều kiện thông thường',
       },
@@ -376,6 +425,13 @@ export const productCategories: ProductCategory[] = [
           '/products/multipurpose/3e-kleen-refill-1/3.jpg',
           '/products/multipurpose/3e-kleen-refill-1/4.jpg',
           '/products/multipurpose/3e-kleen-refill-1/5.jpg',
+        ],
+        banners: [
+          '/products/multipurpose/9-2-2048x1151.jpg',
+          '/products/multipurpose/2-1-1400x787.jpg',
+          '/products/multipurpose/8-1400x787.jpg',
+          '/products/multipurpose/3-1-1400x787.jpg',
+          '/products/multipurpose/4-1400x787.jpg',
         ],
         category: 'multipurpose',
         brand: 'Kitchen KLEEN',
@@ -422,6 +478,13 @@ export const productCategories: ProductCategory[] = [
         ],
         target: ['Gia đình, văn phòng…'],
         packaging: 'Hộp 3 ống dung dịch 5ml đậm đặc',
+        banners: [
+          '/products/multipurpose/9-2-2048x1151.jpg',
+          '/products/multipurpose/2-1-1400x787.jpg',
+          '/products/multipurpose/8-1400x787.jpg',
+          '/products/multipurpose/3-1-1400x787.jpg',
+          '/products/multipurpose/4-1400x787.jpg',
+        ],
         expiry: '2 năm kể từ ngày sản xuất',
         storage: 'Bảo quản ở điều kiện thông thường',
       },
@@ -438,6 +501,13 @@ export const productCategories: ProductCategory[] = [
           '/products/multipurpose/3e-kleen-refill-10/3.jpg',
           '/products/multipurpose/3e-kleen-refill-10/4.jpg',
           '/products/multipurpose/3e-kleen-refill-10/5.jpg',
+        ],
+        banners: [
+          '/products/multipurpose/9-2-2048x1151.jpg',
+          '/products/multipurpose/2-1-1400x787.jpg',
+          '/products/multipurpose/8-1400x787.jpg',
+          '/products/multipurpose/3-1-1400x787.jpg',
+          '/products/multipurpose/4-1400x787.jpg',
         ],
         category: 'multipurpose',
         brand: 'Kitchen KLEEN',
@@ -492,6 +562,13 @@ export const productCategories: ProductCategory[] = [
           'Chuồng trại thú cưng, cơ sở thú y, bệnh viện thú y, gia đình,…',
         ],
         packaging: 'Bộ: 1 chai dung tích 500ml + 1 ống dung dịch đậm đặc 5ml',
+        banners: [
+          '/products/pet/1-2.jpg',
+          '/products/pet/2-1-2.jpg',
+          '/products/pet/3-1-2.jpg',
+          '/products/pet/4-2.jpg',
+          '/products/pet/5-2.jpg',
+        ],
         expiry: '2 năm kể từ ngày sản xuất',
         storage: 'Bảo quản ở điều kiện thông thường',
       },
@@ -525,6 +602,13 @@ export const productCategories: ProductCategory[] = [
           'Chuồng trại thú cưng, cơ sở thú y, bệnh viện thú y, gia đình,…',
         ],
         packaging: 'Bộ: 1 chai dung tích 500ml + 3 ống',
+        banners: [
+          '/products/pet/1-2.jpg',
+          '/products/pet/2-1-2.jpg',
+          '/products/pet/3-1-2.jpg',
+          '/products/pet/4-2.jpg',
+          '/products/pet/5-2.jpg',
+        ],
         expiry: '2 năm kể từ ngày sản xuất',
         storage: 'Bảo quản ở điều kiện thông thường',
       },
@@ -558,6 +642,7 @@ export const productCategories: ProductCategory[] = [
           'Chuồng trại thú cưng, cơ sở thú y, bệnh viện thú y, gia đình,…',
         ],
         packaging: 'Hộp chứa 1 ống dung dịch đậm đặc 5ml',
+
         expiry: '2 năm kể từ ngày sản xuất',
         storage: 'Bảo quản ở điều kiện thông thường',
       },
@@ -591,24 +676,37 @@ export const productCategories: ProductCategory[] = [
           'Chuồng trại thú cưng, cơ sở thú y, bệnh viện thú y, gia đình,…',
         ],
         packaging: 'Hộp chứa 3 ống dung dịch đậm đặc 5ml',
+        banners: [
+          '/products/pet/1-2.jpg',
+          '/products/pet/2-1-2.jpg',
+          '/products/pet/3-1-2.jpg',
+          '/products/pet/4-2.jpg',
+          '/products/pet/5-2.jpg',
+        ],
         expiry: '2 năm kể từ ngày sản xuất',
         storage: 'Bảo quản ở điều kiện thông thường',
       },
+    ],
+  },
+  {
+    id: 'specialty',
+    name: 'SẢN PHẨM CHUYÊN DỤNG',
+    products: [
       {
         id: 'smell-gone-100',
         name: 'Khử mùi nước tiểu sinh học Smell Gone 100ml',
         subtitle: 'Smell Gone 100ml',
         description:
           'Khử mùi nước tiểu sinh học Smell Gone được sản xuất tại Việt Nam với nguyên liệu nhập khẩu 100% từ Canada. Với thành phần là lợi khuẩn,chất hoạt động bề mặt xanh, hương gốc tự nhiên giúp khử mùi nước tiểu',
-        image: '/products/pet/smell-gone-100/1.jpg',
+        image: '/products/specialty/smell-gone-100/1.jpg',
         images: [
-          '/products/pet/smell-gone-100/1.jpg',
-          '/products/pet/smell-gone-100/2.jpg',
-          '/products/pet/smell-gone-100/3.jpg',
-          '/products/pet/smell-gone-100/4.jpg',
-          '/products/pet/smell-gone-100/5.jpg',
+          '/products/specialty/smell-gone-100/1.jpg',
+          '/products/specialty/smell-gone-100/2.jpg',
+          '/products/specialty/smell-gone-100/3.jpg',
+          '/products/specialty/smell-gone-100/4.jpg',
+          '/products/specialty/smell-gone-100/5.jpg',
         ],
-        category: 'pet',
+        category: 'specialty',
         brand: 'SMELL GONE',
         origin:
           'Sản xuất tại Việt Nam với nguyên liệu nhập khẩu 100% từ Canada',
@@ -629,15 +727,15 @@ export const productCategories: ProductCategory[] = [
         subtitle: 'Smell Gone 200ml',
         description:
           'Khử mùi nước tiểu sinh học Smell Gone được sản xuất tại Việt Nam với nguyên liệu nhập khẩu 100% từ Canada. Với thành phần là lợi khuẩn,chất hoạt động bề mặt xanh, hương gốc tự nhiên giúp khử mùi nước tiểu',
-        image: '/products/pet/smell-gone-200/1.jpg',
+        image: '/products/specialty/smell-gone-200/1.jpg',
         images: [
-          '/products/pet/smell-gone-200/1.jpg',
-          '/products/pet/smell-gone-200/2.jpg',
-          '/products/pet/smell-gone-200/3.jpg',
-          '/products/pet/smell-gone-200/4.jpg',
-          '/products/pet/smell-gone-200/5.jpg',
+          '/products/specialty/smell-gone-200/1.jpg',
+          '/products/specialty/smell-gone-200/2.jpg',
+          '/products/specialty/smell-gone-200/3.jpg',
+          '/products/specialty/smell-gone-200/4.jpg',
+          '/products/specialty/smell-gone-200/5.jpg',
         ],
-        category: 'pet',
+        category: 'specialty',
         brand: 'SMELL GONE',
         origin:
           'Sản xuất tại Việt Nam với nguyên liệu nhập khẩu 100% từ Canada',
@@ -652,12 +750,6 @@ export const productCategories: ProductCategory[] = [
         expiry: '2 năm kể từ ngày sản xuất',
         storage: 'Để nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp',
       },
-    ],
-  },
-  {
-    id: 'specialty',
-    name: 'SẢN PHẨM CHUYÊN DỤNG',
-    products: [
       {
         id: 'bio-kanata',
         name: 'Sạch cặn canxi và sáng inox Bio KANATA',
@@ -701,6 +793,13 @@ export const productCategories: ProductCategory[] = [
           '/products/specialty/cool-deodorizer-100/4.jpg',
           '/products/specialty/cool-deodorizer-100/5.jpg',
         ],
+        banners: [
+          '/products/specialty/smell-gone-banner/banner-1.jpg',
+          '/products/specialty/smell-gone-banner/banner-2.jpg',
+          '/products/specialty/smell-gone-banner/banner-3.jpg',
+          '/products/specialty/smell-gone-banner/banner-4.jpg',
+          '/products/specialty/smell-gone-banner/banner-5.jpg',
+        ],
         category: 'specialty',
         brand: 'Cool',
         origin: 'Sản xuất tại Việt Nam với nguyên liệu nhập khẩu từ Mỹ',
@@ -728,6 +827,13 @@ export const productCategories: ProductCategory[] = [
           '/products/specialty/cool-deodorizer-200/3.jpg',
           '/products/specialty/cool-deodorizer-200/4.jpg',
           '/products/specialty/cool-deodorizer-200/5.jpg',
+        ],
+        banners: [
+          '/products/specialty/smell-gone-banner/banner-1.jpg',
+          '/products/specialty/smell-gone-banner/banner-2.jpg',
+          '/products/specialty/smell-gone-banner/banner-3.jpg',
+          '/products/specialty/smell-gone-banner/banner-4.jpg',
+          '/products/specialty/smell-gone-banner/banner-5.jpg',
         ],
         category: 'specialty',
         brand: 'Cool',

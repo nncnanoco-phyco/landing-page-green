@@ -1,8 +1,12 @@
-/* Mechanism Section Styles */
 .mechanism-section {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #fcfcfc; /* Very light gray/white */
+  padding: 3rem 0;
+  background-color: #fcfcfc;
+}
+
+@media (min-width: 768px) {
+  .mechanism-section {
+    padding: 5rem 0;
+  }
 }
 
 .mechanism-container {
@@ -57,8 +61,20 @@
 @media (max-width: 768px) {
   .mechanism-logo-left,
   .mechanism-logo-right {
-    width: 20%;
-    padding: 0.25rem;
-    border-radius: 0.25rem;
+    width: 25%;
+    max-width: 80px;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+  }
+  .mechanism-logo-left {
+    top: -4%;
+  }
+}
+
+@media (max-width: 480px) {
+  .mechanism-logo-left,
+  .mechanism-logo-right {
+    width: 30%;
+    max-width: 60px;
   }
 }

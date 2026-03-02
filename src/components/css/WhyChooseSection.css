@@ -1,8 +1,12 @@
-/* Why Choose Section Styles */
 .why-choose-section {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #f0fdf4; /* Very light green background */
+  padding: 3rem 1.25rem;
+  background-color: #f0fdf4;
+}
+
+@media (min-width: 768px) {
+  .why-choose-section {
+    padding: 5rem 1.5rem;
+  }
 }
 
 .why-choose-container {

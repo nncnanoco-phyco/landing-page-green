@@ -170,7 +170,7 @@ const ProductDetail = () => {
             {/* Usage (Công dụng) */}
             {product.usage && (
               <div className='info-block'>
-                <h2 className='section-title-simple'>Công dụng</h2>
+                <h2 className='section-title-simple'>Cách dùng</h2>
                 <ul className='document-list'>
                   {product.usage.map((u, i) => (
                     <li key={i}>{u}</li>
@@ -212,6 +212,21 @@ const ProductDetail = () => {
               )}
             </div>
           </div>
+
+          {/* 6. Banners Section */}
+          {product.banners && product.banners.length > 0 && (
+            <div className='banners-section'>
+              {product.banners.map((banner, idx) => (
+                <div key={idx} className='banner-item'>
+                  <img
+                    src={banner}
+                    alt={`Banner ${idx + 1}`}
+                    className='banner-image'
+                  />
+                </div>
+              ))}
+            </div>
+          )}
         </motion.div>
       </main>
     </div>

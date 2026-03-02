@@ -1,8 +1,12 @@
-/* Technology Section Styles */
 .technology-section {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding: 3rem 0;
   background-color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .technology-section {
+    padding: 5rem 0;
+  }
 }
 
 .tech-container {
@@ -57,8 +61,20 @@
 @media (max-width: 768px) {
   .tech-logo-left,
   .tech-logo-right {
-    width: 20%;
-    padding: 0.25rem;
-    border-radius: 0.25rem;
+    width: 25%; /* Slightly larger percentage for mobile visibility */
+    max-width: 80px; /* But capped for tiny mobiles */
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+  }
+  .tech-logo-left {
+    top: -4%;
+  } /* Adjust overlap for mobile */
+}
+
+@media (max-width: 480px) {
+  .tech-logo-left,
+  .tech-logo-right {
+    width: 30%;
+    max-width: 60px;
   }
 }
