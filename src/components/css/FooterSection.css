@@ -42,9 +42,24 @@
 
 .footer-tagline {
   font-size: 0.875rem; /* text-sm */
-  color: rgba(255, 255, 255, 0.7); /* text-primary-foreground/70 */
-  margin-bottom: 0.5rem;
+  color: rgba(255, 255, 255, 0.9); /* text-primary-foreground/70 */
+  margin-bottom: 0.75rem;
   margin-top: 0;
+  font-weight: 500;
+}
+
+.footer-radio-logo {
+  height: auto;
+  max-height: 80px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+  display: block;
+  background: white;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
 .footer-brand {

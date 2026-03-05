@@ -6,10 +6,13 @@ const FooterSection = () => {
   return (
     <footer className='footer-section'>
       <div className='footer-container'>
-        <Leaf className='footer-icon-leaf' />
         <p className='footer-tagline'>Đại lý phân phối chính hãng</p>
-        <h3 className='footer-brand'>GREEN 100</h3>
-        <p className='footer-subbrand'>Giải pháp xanh cho ngôi nhà sạch</p>
+        <img
+          src='/Logo_Radio_Shopping.png'
+          alt='Radio Shopping'
+          className='footer-radio-logo'
+        />
+        <h3 className='footer-brand'>Radio Shopping</h3>
         <h4 className='footer-contact-header'>THÔNG TIN LIÊN HỆ</h4>
 
         <div className='footer-contact-info'>
@@ -41,7 +44,7 @@ const FooterSection = () => {
         </div>
 
         <p className='footer-copyright'>
-          © 2026 GREEN 100 - {agentInfo.name}. Tất cả quyền được bảo lưu.
+          © 2026 RADIO SHOPPING - GREEN 100. Tất cả quyền được bảo lưu.
         </p>
       </div>
     </footer>

@@ -18,7 +18,7 @@ const FloatingSocial = () => {
 
       {/* Facebook Button */}
       <a
-        href='https://www.facebook.com'
+        href={agentInfo.facebook}
         target='_blank'
         rel='noopener noreferrer'
         className='social-button facebook-button'
@@ -44,7 +44,7 @@ const FloatingSocial = () => {
 
       {/* TikTok Button */}
       <a
-        href='https://www.tiktok.com'
+        href={agentInfo.tiktok}
         target='_blank'
         rel='noopener noreferrer'
         className='social-button tiktok-button'

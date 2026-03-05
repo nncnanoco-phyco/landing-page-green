@@ -27,14 +27,17 @@ export interface ProductCategory {
 }
 
 export const agentInfo = {
-  name: 'CÔNG TY PHYCO VIỆT NAM',
-  phone: '0899.179.178',
-  email: 'saigonradio1108@gmail.com',
-  title: 'ĐẠI LÝ GIỚI THIỆU SẢN PHẨM CHÍNH HÃNG GREEN 100 TẠI VIỆT NAM',
+  name: 'Radio Shopping',
+  phone: '0939313653',
+  email: 'radioshopvn@gmail.com',
+  title: 'ĐẠI LÝ PHÂN PHỐI CHÍNH HÃNG RADIO SHOPPING',
   address:
     'Số 46, Đường 5, KDC Vạn Phúc, P. Hiệp Bình Phước, TP. Thủ Đức, TP. HCM',
   warehouse:
-    'Số 24, Đường 6, KDC Xây Dựng, P. Hưng Thanh, Q. Cái Răng, TP. Cần Thơ',
+    'Số 24, Đường số 6, KDC Xây Dựng, Phường Hưng Thạnh, Quận Cái Răng, TP Cần Thơ',
+  facebook: 'https://www.facebook.com/profile.php?id=61579259477848',
+  tiktok:
+    'https://www.tiktok.com/@vesinhnhacuaradio?is_from_webapp=1&sender_device=pc',
 };
 
 export const brandInfo = {
