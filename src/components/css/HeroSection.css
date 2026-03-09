@@ -36,7 +36,7 @@
   background: var(--gradient-hero);
   position: relative;
   width: 92%;
-  margin: 1rem auto 1.5rem;
+  margin: 1.5rem auto;
   overflow: hidden;
   padding: 2.25rem 1.25rem;
   box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2);
@@ -48,7 +48,7 @@
   .hero-content-wrapper {
     width: 85%;
     max-width: 1200px;
-    margin: 2rem auto 4rem; /* Margin dương để tách biệt với banner */
+    margin: 2rem auto 4rem;
     border-radius: 2rem;
     padding: 4rem 3rem;
     box-shadow: 0 40px 80px -20px rgba(0, 50, 0, 0.2);
