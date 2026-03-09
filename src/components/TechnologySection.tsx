@@ -1,4 +1,4 @@
-import congNgheBanner from '@/assets/banner/cong_nghe.png';
+import congNgheBanner from '@/assets/banner/new_banner_cong_nghe.png';
 import radioLogo from '@/assets/Logo_Radio_Shopping.png';
 import greenLogo from '@/assets/logo-green100.png';
 import './css/TechnologySection.css';

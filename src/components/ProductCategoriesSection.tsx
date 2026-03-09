@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import { productCategories } from '@/data/products';
+import { productCategories, agentInfo } from '@/data/products';
 import './css/ProductCategoriesSection.css';
 
 const ProductCategoriesSection = () => {
@@ -55,12 +55,22 @@ const ProductCategoriesSection = () => {
                     <div className='card-accent'></div>
                     <p className='product-title'>{product.name}</p>
 
-                    <button
-                      onClick={() => navigate(`/product/${product.id}`)}
-                      className='product-button'
-                    >
-                      Tìm Hiểu Thêm
-                    </button>
+                    <div className='product-actions'>
+                      <button
+                        onClick={() => navigate(`/product/${product.id}`)}
+                        className='product-button learn-more'
+                      >
+                        Tìm Hiểu Thêm
+                      </button>
+                      <a
+                        href={agentInfo.mainWebsite}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='product-button buy-now'
+                      >
+                        Mua Ngay
+                      </a>
+                    </div>
                   </div>
                 </motion.div>
               ))}

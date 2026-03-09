@@ -38,6 +38,7 @@ export const agentInfo = {
   facebook: 'https://www.facebook.com/profile.php?id=61579259477848',
   tiktok:
     'https://www.tiktok.com/@vesinhnhacuaradio?is_from_webapp=1&sender_device=pc',
+  mainWebsite: 'https://radioshopping.vn/',
 };
 
 export const brandInfo = {
