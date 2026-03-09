@@ -9,7 +9,11 @@ const BrandSection = () => {
   return (
     <section
       className='brand-info-section'
-      style={{ backgroundColor: '#cdffcd', paddingBottom: '2rem' }}
+      style={{
+        backgroundColor: '#cdffcd',
+        paddingBottom: '2rem',
+        paddingTop: '2rem',
+      }}
     >
       <div className='hero-content-wrapper'>
         {/* Logos in top right */}
