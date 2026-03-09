@@ -768,6 +768,7 @@ export const productCategories: ProductCategory[] = [
           '/products/specialty/bio-kanata/4.jpg',
           '/products/specialty/bio-kanata/5.jpg',
         ],
+        banners: ['/products/specialty/bio-kanata/6.png'],
         category: 'specialty',
         brand: 'Bio KANATA',
         origin:
