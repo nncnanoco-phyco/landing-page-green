@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
-import heroBanner from '@/assets/banner/banner_green_radioshopping.jpg';
+import heroBanner from '@/assets/banner/1920x663.png';
 import './css/HeroSection.css';
 
 const HeroSection = () => {

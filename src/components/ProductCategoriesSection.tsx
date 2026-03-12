@@ -63,7 +63,7 @@ const ProductCategoriesSection = () => {
                         Tìm Hiểu Thêm
                       </button>
                       <a
-                        href={agentInfo.mainWebsite}
+                        href={product.purchaseUrl}
                         target='_blank'
                         rel='noopener noreferrer'
                         className='product-button buy-now'

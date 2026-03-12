@@ -18,6 +18,7 @@ export interface Product {
   packaging?: string;
   storage?: string;
   expiry?: string;
+  purchaseUrl?: string;
 }
 
 export interface ProductCategory {
@@ -38,7 +39,7 @@ export const agentInfo = {
   facebook: 'https://www.facebook.com/profile.php?id=61579259477848',
   tiktok:
     'https://www.tiktok.com/@vesinhnhacuaradio?is_from_webapp=1&sender_device=pc',
-  mainWebsite: 'https://radioshopping.vn/',
+  mainWebsite: 'https://radioshop.vn/',
 };
 
 export const brandInfo = {
@@ -180,6 +181,8 @@ export const productCategories: ProductCategory[] = [
         packaging: 'Bộ: 1 chai dung tích 500ml + 1 ống dung dịch 5ml đậm đặc',
         storage: 'Bảo quản ở điều kiện thông thường',
         expiry: '2 năm kể từ ngày sản xuất',
+        purchaseUrl:
+          'https://radioshop.vn/product/kitchen-kleen-lau-chui-dau-mo-bo-1-1.html',
       },
       {
         id: 'kitchen-kleen-set-3',
@@ -218,6 +221,8 @@ export const productCategories: ProductCategory[] = [
         packaging: 'Bộ: 1 chai dung tích 500ml + 3 ống',
         storage: 'Bảo quản ở điều kiện thông thường',
         expiry: '2 năm kể từ ngày sản xuất',
+        purchaseUrl:
+          'https://radioshop.vn/product/kitchen-kleen-lau-chui-dau-mo-bo-1-3.html',
       },
       {
         id: 'kitchen-kleen-refill-1',
@@ -256,6 +261,8 @@ export const productCategories: ProductCategory[] = [
         packaging: 'Hộp: 1 ống dung dịch 5ml đậm đặc',
         storage: 'Bảo quản ở điều kiện thông thường',
         expiry: '2 năm kể từ ngày sản xuất',
+        purchaseUrl:
+          'https://radioshop.vn/product/kitchen-kleen-lau-chui-dau-mo-ong-5ml.html',
       },
       {
         id: 'kitchen-kleen-refill-3',
@@ -294,6 +301,8 @@ export const productCategories: ProductCategory[] = [
         packaging: 'Hộp: 3 ống dung dịch 5ml đậm đặc',
         storage: 'Bảo quản ở điều kiện thông thường',
         expiry: '2 năm kể từ ngày sản xuất',
+        purchaseUrl:
+          'https://radioshop.vn/product/kitchen-kleen-lau-chui-dau-mo-hop-3-ong.html',
       },
       {
         id: 'kitchen-kleen-refill-10',
@@ -332,6 +341,8 @@ export const productCategories: ProductCategory[] = [
         packaging: '10 ống 5ml',
         storage: 'Bảo quản ở điều kiện thông thường',
         expiry: '2 năm kể từ ngày sản xuất',
+        purchaseUrl:
+          'https://radioshop.vn/product/kitchen-kleen-lau-chui-dau-mo-hop-10-ong.html',
       },
     ],
   },
@@ -376,6 +387,8 @@ export const productCategories: ProductCategory[] = [
         ],
         expiry: '2 năm kể từ ngày sản xuất',
         storage: 'Bảo quản ở điều kiện thông thường',
+        purchaseUrl:
+          'https://radioshop.vn/product/3e-kleen-lau-chui-da-nang-bo-1-1.html',
       },
       {
         id: '3e-kleen-set-3',
@@ -415,6 +428,8 @@ export const productCategories: ProductCategory[] = [
         ],
         expiry: '2 năm kể từ ngày sản xuất',
         storage: 'Bảo quản ở điều kiện thông thường',
+        purchaseUrl:
+          'https://radioshop.vn/product/3e-kleen-lau-chui-da-nang-bo-1-3.html',
       },
       {
         id: '3e-kleen-refill-1',
@@ -453,6 +468,8 @@ export const productCategories: ProductCategory[] = [
         packaging: '1 ống dung dịch 5ml đậm đặc',
         expiry: '2 năm kể từ ngày sản xuất',
         storage: 'Bảo quản ở điều kiện thông thường',
+        purchaseUrl:
+          'https://radioshop.vn/product/3e-kleen-lau-chui-da-nang-ong-5ml.html',
       },
       {
         id: '3e-kleen-refill-3',
@@ -491,6 +508,8 @@ export const productCategories: ProductCategory[] = [
         ],
         expiry: '2 năm kể từ ngày sản xuất',
         storage: 'Bảo quản ở điều kiện thông thường',
+        purchaseUrl:
+          'https://radioshop.vn/product/3e-kleen-lau-chui-da-nang-hop-3-ong.html',
       },
       {
         id: '3e-kleen-refill-10',
@@ -529,6 +548,8 @@ export const productCategories: ProductCategory[] = [
         packaging: '10 ống dung dịch 5ml đậm đặc',
         expiry: '2 năm kể từ ngày sản xuất',
         storage: 'Bảo quản ở điều kiện thông thường',
+        purchaseUrl:
+          'https://radioshop.vn/product/3e-kleen-lau-chui-da-nang-hop-10-ong.html',
       },
     ],
   },
@@ -575,6 +596,8 @@ export const productCategories: ProductCategory[] = [
         ],
         expiry: '2 năm kể từ ngày sản xuất',
         storage: 'Bảo quản ở điều kiện thông thường',
+        purchaseUrl:
+          'https://radioshop.vn/product/pet-kleen-khu-mui-chuong-trai-thu-cung-bo-1-1.html',
       },
       {
         id: 'pet-kleen-set-3',
@@ -615,6 +638,8 @@ export const productCategories: ProductCategory[] = [
         ],
         expiry: '2 năm kể từ ngày sản xuất',
         storage: 'Bảo quản ở điều kiện thông thường',
+        purchaseUrl:
+          'https://radioshop.vn/product/pet-kleen-khu-mui-chuong-trai-thu-cung-bo-1-3.html',
       },
       {
         id: 'pet-kleen-refill-1',
@@ -649,6 +674,7 @@ export const productCategories: ProductCategory[] = [
 
         expiry: '2 năm kể từ ngày sản xuất',
         storage: 'Bảo quản ở điều kiện thông thường',
+        purchaseUrl: 'https://radioshop.vn/category/bach-hoa-online.html',
       },
       {
         id: 'pet-kleen-refill-3',
@@ -689,6 +715,8 @@ export const productCategories: ProductCategory[] = [
         ],
         expiry: '2 năm kể từ ngày sản xuất',
         storage: 'Bảo quản ở điều kiện thông thường',
+        purchaseUrl:
+          'https://radioshop.vn/product/pet-kleen-khu-mui-chuong-trai-thu-cung-hop-3-ong.html',
       },
     ],
   },
@@ -724,6 +752,7 @@ export const productCategories: ProductCategory[] = [
         packaging: 'Chai 100ml',
         expiry: '2 năm kể từ ngày sản xuất',
         storage: 'Để nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp',
+        purchaseUrl: 'https://radioshop.vn/category/bach-hoa-online.html',
       },
       {
         id: 'smell-gone-200',
@@ -753,6 +782,7 @@ export const productCategories: ProductCategory[] = [
         packaging: 'Chai 200ml',
         expiry: '2 năm kể từ ngày sản xuất',
         storage: 'Để nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp',
+        purchaseUrl: 'https://radioshop.vn/category/bach-hoa-online.html',
       },
       {
         id: 'bio-kanata',
@@ -783,6 +813,7 @@ export const productCategories: ProductCategory[] = [
         expiry:
           '3 năm kể từ ngày sản xuất đối với tinh chất và 6 tháng sau khi đã pha loãng với nước',
         storage: 'Để nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp.',
+        purchaseUrl: 'https://radioshop.vn/category/bach-hoa-online.html',
       },
       {
         id: 'cool-deodorizer-100',
@@ -818,6 +849,8 @@ export const productCategories: ProductCategory[] = [
         packaging: 'Dung tích 100ml / chai - 80 chai / thùng',
         expiry: '3 năm kể từ ngày sản xuất',
         storage: 'Nơi khô ráo, tránh ánh nắng trực tiếp',
+        purchaseUrl:
+          'https://radioshop.vn/product/cool-100ml-khu-mui-khong-gian.html',
       },
       {
         id: 'cool-deodorizer-200',
@@ -853,6 +886,8 @@ export const productCategories: ProductCategory[] = [
         packaging: 'Dung tích 200ml / chai - 48 chai / thùng',
         expiry: '3 năm kể từ ngày sản xuất',
         storage: 'Nơi khô ráo, tránh ánh nắng trực tiếp',
+        purchaseUrl:
+          'https://radioshop.vn/product/cool-200ml-khu-mui-khong-gian.html',
       },
     ],
   },
