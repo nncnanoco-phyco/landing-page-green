@@ -1,46 +1,148 @@
-import { motion } from 'framer-motion';
-import { Leaf } from 'lucide-react';
-import { brandInfo } from '@/data/products';
-import logoGreen from '@/assets/logo-green100.png';
-import logoRadio from '@/assets/Logo_Radio_Shopping.png';
-import './css/HeroSection.css'; // Reuse existing styles for now
+import banner from '@/assets/banner/Banner_updated/hero_section.png';
 
 const BrandSection = () => {
+  const scrollToProducts = () => {
+    const productsSection = document.getElementById('products');
+    if (productsSection) {
+      productsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section
-      className='brand-info-section'
+      className='brand-info-section w-full'
       style={{
-        backgroundColor: '#cdffcd',
-        paddingBottom: '2rem',
-        paddingTop: '2rem',
+        backgroundColor: '#ffffff',
+        padding: '2rem 1rem',
       }}
     >
-      <div className='hero-content-wrapper'>
-        {/* Logos in top right */}
-        <div className='hero-logos'>
-          <img
-            src={logoGreen}
-            alt='Green Logo'
-            className='hero-logo logo-green'
-          />
-          <div className='hero-logo-divider'></div>
-          <img
-            src={logoRadio}
-            alt='Radio Shopping Logo'
-            className='hero-logo logo-radio'
-          />
+      <div 
+        style={{ 
+          position: 'relative', 
+          width: '100%', 
+          maxWidth: '1200px', 
+          margin: '0 auto',
+        }}
+      >
+        <img
+          src={banner}
+          alt='Brand Banner'
+          style={{
+            width: '100%',
+            height: 'auto',
+            display: 'block',
+            borderRadius: '0.5rem',
+            boxShadow: '0 4px 20px rgba(0,0,0,0.08)'
+          }}
+        />
+        
+        {/* Nút tìm hiểu các sản phẩm */}
+        <div 
+          className="brand-action-container"
+          style={{ 
+            position: 'absolute', 
+            bottom: '5%', 
+            right: '25%', 
+            transform: 'translateX(50%)',
+            zIndex: 10
+          }}
+        >
+          <button
+            onClick={scrollToProducts}
+            className='bubble-button pulse-animation'
+          >
+            Tìm Hiểu Các Sản Phẩm
+          </button>
         </div>
 
-        <div className='hero-inner-container' style={{ padding: 0 }}>
-          <div className='hero-content-box' style={{ maxWidth: '100%' }}>
-            {/* Banner sẽ do designer thiết kế thay thế vào đây */}
-            <img 
-              src="https://placehold.co/1200x500/e2e8f0/475569?text=Banner+Do+Designer+Thiet+Ke" 
-              alt="Brand Banner" 
-              style={{ width: '100%', height: 'auto', borderRadius: '1rem', display: 'block' }}
-            />
-          </div>
-        </div>
+        <style>{`
+          .bubble-button {
+            background-color: #16a34a; /* Green color */
+            color: #ffffff;
+            font-family: inherit;
+            font-weight: 700;
+            font-size: 1.125rem;
+            padding: 0.8rem 1.8rem;
+            border-radius: 9999px;
+            border: none;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 15px rgba(22, 163, 74, 0.4);
+            white-space: nowrap;
+          }
+
+          .bubble-button:hover {
+            transform: scale(1.05);
+            background-color: #15803d;
+            box-shadow: 0 6px 20px rgba(22, 163, 74, 0.6);
+          }
+
+          /* Bubble effect on hover */
+          .bubble-button::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(255, 255, 255, 0.25);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.6s ease-out, height 0.6s ease-out;
+          }
+
+          .bubble-button:hover::before {
+            width: 300px;
+            height: 300px;
+          }
+
+          /* Attention-grabbing pulse animation */
+          .pulse-animation {
+            animation: pulse-button 2s infinite;
+          }
+
+          @keyframes pulse-button {
+            0% {
+              box-shadow: 0 0 0 0 rgba(22, 163, 74, 0.7);
+            }
+            70% {
+              box-shadow: 0 0 0 15px rgba(22, 163, 74, 0);
+            }
+            100% {
+              box-shadow: 0 0 0 0 rgba(22, 163, 74, 0);
+            }
+          }
+
+          /* Responsive adjustments */
+          @media (max-width: 1024px) {
+            .brand-action-container {
+               bottom: 5% !important;
+            }
+            .bubble-button {
+               font-size: 1rem;
+               padding: 0.6rem 1.4rem;
+            }
+          }
+
+          @media (max-width: 768px) {
+            .brand-action-container {
+               position: static !important;
+               transform: none !important;
+               margin-top: 1.5rem;
+               width: 100%;
+               display: flex;
+               justify-content: center;
+               right: auto !important;
+               bottom: auto !important;
+            }
+            .bubble-button {
+               font-size: 1rem;
+               padding: 0.75rem 2rem;
+            }
+          }
+        `}</style>
       </div>
     </section>
   );
