@@ -1,4 +1,4 @@
-import congNgheBanner from '@/assets/banner/new_banner_cong_nghe.png';
+import congNgheBanner from '@/assets/banner/Banner_updated/co_che_hoat_dong.png';
 import radioLogo from '@/assets/Logo_Radio_Shopping.png';
 import greenLogo from '@/assets/logo-green100.png';
 import './css/TechnologySection.css';
@@ -14,12 +14,6 @@ const TechnologySection = () => {
             className='tech-banner'
             loading='lazy'
           />
-          <img
-            src={radioLogo}
-            alt='Radio Shopping Logo'
-            className='tech-logo-left'
-          />
-          <img src={greenLogo} alt='Green Logo' className='tech-logo-right' />
         </div>
       </div>
     </section>
