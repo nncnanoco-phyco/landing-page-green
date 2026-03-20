@@ -12,6 +12,7 @@ const MechanismSection = () => {
             src={coCheBanner}
             alt='Cơ chế hoạt động'
             className='mechanism-banner'
+            loading='lazy'
           />
           <img
             src={radioLogo}

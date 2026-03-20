@@ -12,6 +12,7 @@ const TechnologySection = () => {
             src={congNgheBanner}
             alt='Công nghệ sinh học'
             className='tech-banner'
+            loading='lazy'
           />
           <img
             src={radioLogo}

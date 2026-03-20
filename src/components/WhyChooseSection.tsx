@@ -9,6 +9,7 @@ const WhyChooseSection = () => {
           src={lyDoBanner}
           alt='Lý do chọn sản phẩm'
           className='why-choose-banner'
+          loading='lazy'
         />
       </div>
     </section>

@@ -27,6 +27,7 @@ const BrandSection = () => {
         <img
           src={banner}
           alt='Brand Banner'
+          loading='lazy'
           style={{
             width: '100%',
             height: 'auto',
