@@ -1,4 +1,4 @@
-import lyDoBanner from '@/assets/banner/ly_do.png';
+import lyDoBanner from '@/assets/banner/Banner_updated/ly_do_chon.png';
 import './css/WhyChooseSection.css';
 
 const WhyChooseSection = () => {
