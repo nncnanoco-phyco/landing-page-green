@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft } from 'lucide-react';
 import { productCategories } from '@/data/products';
-import emotionalLogo from '@/assets/logo_phyco.jpg';
+import emotionalLogo from '@/assets/logo/logo_phyco.jpg';
 import './ProductDetail.css';
 
 const ProductDetail = () => {
