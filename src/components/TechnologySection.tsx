@@ -1,6 +1,4 @@
-import congNgheBanner from '@/assets/banner/Banner_updated/co_che_hoat_dong.png';
-import radioLogo from '@/assets/Logo_Radio_Shopping.png';
-import greenLogo from '@/assets/logo-green100.png';
+import congNgheBanner from '@/assets/banner/Banner_updated/cong_nghe.png';
 import './css/TechnologySection.css';
 
 const TechnologySection = () => {
